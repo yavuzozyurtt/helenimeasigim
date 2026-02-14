@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Senin İçin ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Canım Sevgilim 💕</h1>
+        
+        <p class="message">
+            Hayatımda olduğun için her gün şükrediyorum.
+            Sen benim en güzel tesadüfüm, en tatlı heyecanımsın.
+            İyi ki varsın, iyi ki benimsin ❤️
+        </p>
+
+        <button onclick="showLove()">Bana Tıkla 💌</button>
+
+        <p id="surprise" class="hidden">
+            Seni her şeyden çok seviyorum! 💖🌹
+        </p>
+    </div>
+
+    <script>
+        function showLove() {
+            document.getElementById("surprise").classList.remove("hidden");
+        }
+    </script>
+
+</body>
+</html>
